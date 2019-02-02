@@ -9,10 +9,10 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-[跑演示时先添加私有库：](https://github.com/NShunjian/PodSpecs.git)
-
+[跑演示时先添加私有库：](https://github.com/NShunjian/PodSpecs.git)https://github.com/NShunjian/PodSpecs.git
+```
 pod repo add PrivatePods https://github.com/NShunjian/PodSpecs.git 
-
+```
 ## Requirements
 
 本工程部分介绍
@@ -27,8 +27,10 @@ pod repo add PrivatePods https://github.com/NShunjian/PodSpecs.git
 
 `CTMediator` helps you to devide your project into multi-project, and use `Target-Action` pattern to let subprojects to communicate with each other.
 
-[iOS应用架构谈 组件化方案](http://casatwy.com/iOS-Modulization.html)
+-[iOS应用架构谈 组件化方案](http://casatwy.com/iOS-Modulization.html)
 
-[在现有工程中实施基于CTMediator的组件化方案](http://casatwy.com/modulization_in_action.html)
+-[在现有工程中实施基于CTMediator的组件化方案](http://casatwy.com/modulization_in_action.html)
 
-[CTMediator的Swift应用](https://casatwy.com/CTMediator_in_Swift.html)
+-[CTMediator的Swift应用](https://casatwy.com/CTMediator_in_Swift.html)
+
+- [组件化架构漫谈](https://www.jianshu.com/p/67a6004f6930)
