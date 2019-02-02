@@ -5,6 +5,20 @@
 [![License](https://img.shields.io/cocoapods/l/NSMainProject.svg?style=flat)](https://cocoapods.org/pods/NSMainProject)
 [![Platform](https://img.shields.io/cocoapods/p/NSMainProject.svg?style=flat)](https://cocoapods.org/pods/NSMainProject)
 
+
+- 业务划分更佳清晰，新人接手更佳容易，可以按组件分配开发任务。
+- 项目可维护性更强，提高开发效率。
+- 更好排查问题，某个组件出现问题，直接对组件进行处理。
+- 开发测试过程中，可以只编译自己那部分代码，不需要编译整个项目代码。
+- 方便集成，项目需要哪个模块直接通过CocoaPods集成即可。
+
+<img src="./imgs/270478-21ba52ac7438edd8.png">
+
+
+改进后的架构
+
+进行组件化开发后，可以把每个组件当做一个独立的app，每个组件甚至可以采取不同的架构，例如分别使用MVVM、MVC、MVCS等架构，根据自己的编程习惯做选择。
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
