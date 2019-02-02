@@ -1,4 +1,4 @@
-# NSMainProject
+# iOSMainProject
 
 [![CI Status](https://img.shields.io/travis/NShunJian/NSMainProject.svg?style=flat)](https://travis-ci.org/NShunJian/NSMainProject)
 [![Version](https://img.shields.io/cocoapods/v/NSMainProject.svg?style=flat)](https://cocoapods.org/pods/NSMainProject)
