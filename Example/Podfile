@@ -1,9 +1,16 @@
-use_frameworks!
+#use_frameworks!
+
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/NShunjian/PodSpecs.git'
 
 platform :ios, '8.0'
 
 target 'NSMainProject_Example' do
   pod 'NSMainProject', :path => '../'
+  pod 'ModuleB'
+  pod 'NSModuleBCategory'
+  pod 'ModuleA'
+  pod 'ModuleACategory'
 
   target 'NSMainProject_Tests' do
     inherit! :search_paths

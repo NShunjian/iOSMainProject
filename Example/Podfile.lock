@@ -1,0 +1,41 @@
+PODS:
+  - CTMediator (25)
+  - ModuleA (0.1.0)
+  - ModuleACategory (0.1.0):
+    - CTMediator
+  - ModuleB (0.3.3)
+  - NSMainProject (0.1.0)
+  - NSModuleBCategory (0.1.3):
+    - CTMediator
+
+DEPENDENCIES:
+  - ModuleA
+  - ModuleACategory
+  - ModuleB
+  - NSMainProject (from `../`)
+  - NSModuleBCategory
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CTMediator
+  https://github.com/NShunjian/PodSpecs.git:
+    - ModuleA
+    - ModuleACategory
+    - ModuleB
+    - NSModuleBCategory
+
+EXTERNAL SOURCES:
+  NSMainProject:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  ModuleA: d342f8eb113909d7cd6c886ddbe32e06785848f5
+  ModuleACategory: d99af2949bd4156cb895722ac2fd18f0b8526cde
+  ModuleB: db5e928e41f0de4f882b0bc394df68408fa42621
+  NSMainProject: 17cdd88d91ed11a27ee75eb1a2ba2fc16b33ea7a
+  NSModuleBCategory: 716d98672f8890f485d4e8add3510ca1d5cf5590
+
+PODFILE CHECKSUM: faee92fb8daeb078d55a70efc3240f0c11bc5ea8
+
+COCOAPODS: 1.6.0.beta.1

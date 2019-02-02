@@ -1,0 +1,6 @@
+framework module NSMainProject {
+  umbrella header "NSMainProject-umbrella.h"
+
+  export *
+  module * { export * }
+}
